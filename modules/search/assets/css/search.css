@@ -1,0 +1,38 @@
+#searchform ul.quick_search_results { position: absolute; padding: 0; 
+    background-color: var(--wdtAccentTxtColor); text-align: left; width: 100%; max-width: 100%;  margin-right: auto; margin: 16px 0 0;
+    transition: all .4s ease; z-index: 99; font-size: 0.9rem; transform: translateY(10px); border-radius: var(--wdtRadius_3X); display: grid; grid-template-columns: repeat(1,1fr); grid-gap: 10px;}
+.wdt-custom-header-search #searchform ul.quick_search_results{
+    grid-template-columns: 100%;
+}
+#searchform ul.quick_search_results p,
+#searchform ul.quick_search_results li.quick_search_data_item { list-style-type: none; text-align: inherit; line-height: var(--wdtLineHeight_Base); 
+    padding: 6px 20px; font-size: 0.9rem; width: 100%; margin: 0; }
+
+#searchform ul.quick_search_results li.quick_search_data_item a { width: 100%; font-size: 14px; 
+    display: grid; gap: 10px; grid-template-columns: auto 1fr; align-items: center; color: var(--wdtSecondaryColor);}
+#searchform ul.quick_search_results li.quick_search_data_item a > img { 
+        -webkit-border-radius: var(--wdtRadius_3X); border-radius: var(--wdtRadius_3X); width: 74px;}
+#searchform ul.quick_search_results li.quick_search_data_item a:hover{
+    color: var(--wdtLinkHoverColor);
+}
+#searchform ul.quick_search_results:not(.active):before,
+#searchform ul.quick_search_results:not(.active) { font-size: inherit; opacity: 0; transform: translateY(10px); transition: all .4s ease; }
+#searchform ul.quick_search_results.active { opacity: 1; transform: translateY(0); padding-top: 10px; padding-bottom: 10px; 
+    -webkit-box-shadow: rgba(0,0,0,.8) 0 0 40px; box-shadow: rgba(0,0,0,.8) 0 0 40px; }
+
+#searchform input.text_input ~ ul.quick_search_results { opacity: 0; transform: translateY(10px); transition: all .4s ease; }
+#searchform input.text_input:focus ~ ul.quick_search_results { opacity: 1; transform: translateY(0); }
+
+#searchform ul.quick_search_results.active:before { content: ""; position: absolute; width: 16px; height: 16px; background: inherit; 
+    -webkit-transform: rotate(45deg); transform: rotate(45deg); top: -7px; left: 20px; }
+
+@media screen and (max-width: 767px){
+    #searchform ul.quick_search_results{
+        grid-template-columns: 100%;
+    }
+}
+@media screen and (max-width: 479px) {
+    .wdt-custom-header-search #searchform ul.quick_search_results{
+        min-width: 290px;
+    }
+}

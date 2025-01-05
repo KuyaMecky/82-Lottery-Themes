@@ -1,0 +1,38 @@
+*** 82-LOTTERY WordPress Theme Changelog ***
+
+Version 1.0.6
+
+    * Unyson plugin source updated
+    * Compatible: WordPress Latest Version
+    * Compatible: Elementor Latest Version
+
+
+Version 1.0.5
+
+    * Updated: Textdomain Updated
+    * Fixed: Translation Issue.
+
+
+Version 1.0.4
+
+    * Fixed: Portfolio plugin Elementor deprecated error
+    * Fixed: Elementor Addon plugin Elementor deprecated error
+
+Version 1.0.3
+
+    * Updated: RTL with demo content
+    * Updated: Demo content added in external space
+    * Compatible: WordPress Latest Version
+    * Compatible: Elementor Latest Version
+
+Version 1.0.2
+
+    * Additional demo added and demo content updated
+
+Version 1.0.1
+
+    * Demo content added
+
+Version 1.0.0
+
+    * First release!

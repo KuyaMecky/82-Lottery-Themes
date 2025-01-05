@@ -1,0 +1,1 @@
+<?php echo apply_filters( 'lottery_82_app_footer_get_template_part', lottery_82_app_get_template_part( 'footer', 'templates/footer', '', array() ) ); ?>
