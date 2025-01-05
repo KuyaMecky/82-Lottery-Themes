@@ -44,3 +44,4 @@ This theme is licensed under the [MIT License](LICENSE).
 
 Thank you for choosing 82 Lottery Themes. We hope you enjoy using it!
 # 82-Lottery-Themes
+![82 Lottery mobile Layout](https://github.com/user-attachments/assets/89355cc0-6126-49b2-842e-64281fb6d1c3)
