@@ -1,4 +1,5 @@
 # 82 Lottery Themes
+[Actual Site](82lottery-app.in)
 ![Homepage Image](https://github.com/user-attachments/assets/5dab0434-774e-4dc0-904a-b1deeaae0a06)
 
 ## Description
@@ -32,7 +33,7 @@ To customize the theme, navigate to `Appearance > Customize` in your WordPress d
 
 ## Support
 
-If you encounter any issues or have any questions, please refer to the [support documentation](#) or contact our support team at support@example.com.
+If you encounter any issues or have any questions, please refer to the [support documentation](82lottery-app.in) or contact our support team at Meckymouse33@gmail.com.
 
 ## Contributing
 
